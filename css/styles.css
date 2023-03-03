@@ -1,0 +1,115 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+body{
+    font-family: Axiforma,sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: content-box;
+}
+
+h1{
+    font-size: 55px;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+ul{
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+li{
+    margin-bottom: 1rem
+}
+
+img{
+    margin: 1rem 0;
+}
+
+.main{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.author{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 32px;
+    box-shadow: 0 0 5px 0 rgb(16 11 21 / 15%), 0 0 1px 0 rgb(16 11 21 / 15%);
+    padding: 32px 24px;
+    margin-bottom: 3rem;
+}
+
+.author:before{
+    content: 'Автор';
+    color: #7e33d5;
+    position: absolute;
+    top: -15px;
+    right: 50px;
+    background-color: #ececec;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.author__img, .boss-clickoo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 15px 0 0 ;
+}
+
+.author__wrapper-text{
+
+    line-height: 30px;
+}
+
+.author__name{
+    margin-bottom: 0.5rem;
+}
+
+.use-cases__list{
+    margin-left: 20px;
+}
+
+.use-cases__link{
+    font-weight: bold;
+    color: #7e33d5;
+}
+
+.clickoo{
+    position: relative;
+    border-radius: 32px;
+    box-shadow: 0 0 5px 0 rgb(16 11 21 / 15%), 0 0 1px 0 rgb(16 11 21 / 15%);
+    padding: 32px 24px;
+    margin-bottom: 3rem;
+}
+
+.boss{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wasted__link{
+    margin-bottom: 3rem;
+}
